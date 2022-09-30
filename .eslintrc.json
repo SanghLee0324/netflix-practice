@@ -1,9 +1,0 @@
-{
-  "parser": "react-scripts/node_modules/babel-eslint",
-  "extends": ["react-app", "airbnb"],
-  "rules": {
-    "quotes": ["error", "single", { "avoidEscape": true }],
-    "indent": ["error", 2],
-    "react/jsx-filename-extension": 0
-  }
-}

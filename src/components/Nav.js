@@ -16,7 +16,7 @@ export default function Nav() {
     return () => {
       window.removeEventListener("scroll", () => {});
     };
-  });
+  }, []);
 
   return (
     // show가 true일때만 nav_black css 적용되도록

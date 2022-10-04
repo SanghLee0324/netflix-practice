@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Nav.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Nav() {
-  const { show, setShow } = useState(false);
+  const [show, setShow] = useState(false);
+  const [searchValue, setSearchValue] = useState("");
+  const navigate = useNavigate();
 
   //스크롤 시 nav 배경색 바꾸기
   useEffect(() => {
@@ -13,10 +16,16 @@ export default function Nav() {
         setShow(false);
       }
     });
+
     return () => {
       window.removeEventListener("scroll", () => {});
     };
   }, []);
+
+  const handleChange = e => {
+    setSearchValue(e.target.value);
+    navigate(`/search?q=${e.target.value}`);
+  };
 
   return (
     // show가 true일때만 nav_black css 적용되도록
@@ -27,6 +36,15 @@ export default function Nav() {
         className="nav_logo"
         onClick={() => window.location.reload()}
       />
+
+      <input
+        value={searchValue}
+        onChange={handleChange}
+        className="nav_input"
+        type="text"
+        placeholder="영화를 검색해주세요."
+      />
+
       <img //사용자 로고
         alt="User logged"
         src="https://pro2-bar-s3-cdn-cf1.myportfolio.com/dddb0c1b4ab622854dd81280840458d3/92995677ac0aab719760c33c.png?h=3b9eb2133e52e4c190235d60872eb1e4"

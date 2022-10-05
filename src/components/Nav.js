@@ -42,7 +42,7 @@ export default function Nav() {
         onChange={handleChange}
         className="nav_input"
         type="text"
-        placeholder="영화를 검색해주세요."
+        placeholder="영화 찾기"
       />
 
       <img //사용자 로고

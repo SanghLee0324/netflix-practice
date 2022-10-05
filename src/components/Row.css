@@ -152,11 +152,11 @@ h2 {
 }
 
 .swiper-button-prev {
-  color: white !important;
+  color: gray !important;
 }
 
 .swiper-button-next {
-  color: white !important;
+  color: gray !important;
 }
 
 .swiper-button-next:after,

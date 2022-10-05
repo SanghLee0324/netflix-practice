@@ -85,8 +85,6 @@ h2 {
   margin-right: 10px;
   transition: transform 450ms;
   border-radius: 4px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 .row_poster:hover {
   transform: scale(1.08);
@@ -145,12 +143,12 @@ h2 {
 }
 
 .swiper-pagination-bullet {
-  background: gray !important;
-  opacity: 1 !important;
+  background: transparent !important;
+  /* opacity: 1 !important; */
 }
 
 .swiper-pagination-bullet-active {
-  background: white !important;
+  /* background: white !important; */
 }
 
 .swiper-button-prev {

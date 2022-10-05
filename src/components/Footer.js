@@ -98,4 +98,5 @@ const FooterDescRights = styled.h2`
   color: white;
   font-size: 14px;
   text-align: center;
+  padding-right: 50px;
 `;

@@ -27,7 +27,7 @@
   font-size: 18px;
 }
 .modal_overview {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
 }
 .modal_user-perc {
@@ -73,10 +73,10 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .modal__overview {
+  .modal_overview {
     font-size: 16px;
   }
-  .modal__details {
+  .modal_details {
     font-size: 16px;
   }
   .wrapper-modal {

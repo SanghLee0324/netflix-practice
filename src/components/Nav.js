@@ -10,7 +10,7 @@ export default function Nav() {
   //스크롤 시 nav 배경색 바꾸기
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY > 50) {
+      if (window.scrollY > 230) {
         setShow(true);
       } else {
         setShow(false);

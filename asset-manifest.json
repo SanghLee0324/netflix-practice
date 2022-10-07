@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/netflix_practice/static/css/main.f7157909.css",
-    "main.js": "/netflix_practice/static/js/main.8e018785.js",
-    "static/js/787.b99ecbe7.chunk.js": "/netflix_practice/static/js/787.b99ecbe7.chunk.js",
-    "index.html": "/netflix_practice/index.html",
-    "main.f7157909.css.map": "/netflix_practice/static/css/main.f7157909.css.map",
-    "main.8e018785.js.map": "/netflix_practice/static/js/main.8e018785.js.map",
-    "787.b99ecbe7.chunk.js.map": "/netflix_practice/static/js/787.b99ecbe7.chunk.js.map"
+    "main.css": "/netflix-practice/static/css/main.f7157909.css",
+    "main.js": "/netflix-practice/static/js/main.7cfd7d9d.js",
+    "static/js/787.b99ecbe7.chunk.js": "/netflix-practice/static/js/787.b99ecbe7.chunk.js",
+    "index.html": "/netflix-practice/index.html",
+    "main.f7157909.css.map": "/netflix-practice/static/css/main.f7157909.css.map",
+    "main.7cfd7d9d.js.map": "/netflix-practice/static/js/main.7cfd7d9d.js.map",
+    "787.b99ecbe7.chunk.js.map": "/netflix-practice/static/js/787.b99ecbe7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7157909.css",
-    "static/js/main.8e018785.js"
+    "static/js/main.7cfd7d9d.js"
   ]
 }
